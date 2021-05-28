@@ -1,0 +1,19 @@
+{
+  "name": "payments-with-adyen",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": "14.16.0"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "@adyen/api-library": "8.1.0",
+    "dotenv": "10.0.0",
+    "fastify": "3.16.2"
+  }
+}
